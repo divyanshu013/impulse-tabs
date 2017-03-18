@@ -1,0 +1,10 @@
+{
+  "name": "Impulse Tabs",
+  "description": "Replace the Chrome tab with Impluse tabs",
+  "version": "0.2",
+  "incognito": "split",
+  "chrome_url_overrides": {
+    "newtab": "index.html"
+  },
+  "manifest_version": 2
+}
