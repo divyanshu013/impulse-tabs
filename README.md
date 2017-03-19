@@ -1,14 +1,10 @@
 # Impulse Tabs
 Replace your Chrome new tab with productive, inspirational and motivational Impulse Tabs!
 
-<hr>
-
 ## Technology
 **Impulse Tabs** uses React. Check out the following links to learn more:
 - [React](https://facebook.github.io/react/)
 - [Chrome extensions](https://developer.chrome.com/extensions/overview)
-
-<hr>
 
 ## Project setup
 The project setup requires `npm` or `yarn` (recommended)
@@ -49,8 +45,6 @@ yarn install
 
 Impulse Tabs should be setup in a while and ready to hack on to!
 
-<hr>
-
 ## Running locally and generating a build for Chrome
 
 It's not necessary to generate a build everytime you make a change. All the changes can be observed locally and will be hot deployed, just run:
@@ -68,8 +62,6 @@ yarn build
 This will also copy the `manifest.json` file into the build directory, so any changes required for the manifest should be made before deploying build.
 
 Once the extension is loaded into Chrome (or Chromium), it'll automatically pick up changes from the build directory, so for a newer build you only need to run the build command and reload your Chrome (or Chromium) new tab.
-
-<hr>
 
 ## Contribution guide
 
