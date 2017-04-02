@@ -3,7 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 
 // Components
-import Clock from './Components/Clock/Clock'
+import Clock from './Components/Clock'
 
 class App extends React.Component {
   render() {
