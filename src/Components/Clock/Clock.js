@@ -3,7 +3,9 @@ import React from 'react';
 class Clock extends React.Component {
   constructor() {
     super();
-    this.state = {date: new Date()};
+    this.state = {
+      date: new Date()
+    };
   }
 
   // Lifecycle hooks
@@ -16,30 +18,29 @@ class Clock extends React.Component {
   }
 
   // when component is unmounted
-  componentWillUnmount()  {
+  componentWillUnmount() {
     clearInterval(this.timerID);
   }
 
-  tick()  {
+  tick() {
     this.setState({
       date: new Date()
     });
   }
 
   render() {
+    const styles = {
+      backgroundColor: '#ffde00',
+      display: 'inline-block',
+      fontFamily: 'monospace',
+      textAlign: 'center'
+    };
 
-    var styles = {
-        backgroundColor: "#ffde00",
-        display: "inline-block",
-        fontFamily: "monospace",
-        textAlign: "center",
-      };
-
-    return(
+    return (
       <div style={styles}>
         <h1>{this.state.date.toTimeString()}</h1>
       </div>
-      );
+    );
   }
 }
 
