@@ -1,9 +1,10 @@
 import React from 'react';
 import UnsplashSourceES6 from 'unsplash-source-es6';
-import logo from '../../logo.svg';
+// import logo from '../../logo.svg';
 
 // Components
 import Clock from '../Clock';
+import SearchBox from '../SearchBox';
 
 class Main extends React.Component {
   constructor() {
@@ -38,15 +39,8 @@ class Main extends React.Component {
     // TODO: Add image author credits
     return (
       <div className="App" style={styles}>
-        <div className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h2>Welcome to Impulse Tabs</h2>
-        </div>
-        <p className="App-intro">
-          Happy Hacking!
-        </p>
-
         <Clock />
+        <SearchBox />
       </div>
     );
   }
