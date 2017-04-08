@@ -59,7 +59,7 @@ When you're happy with your changes and wish to check the extension on Chrome (o
 yarn build
 ```
 
-This will also copy the `manifest.json` file into the build directory, so any changes required for the manifest should be made before deploying build.
+This will also copy the `manifest.json` file into the build directory, so any changes required for the manifest should be made before deploying build. You can also manually copy this `manifest.json` manually into the build directory if it fails.
 
 Once the extension is loaded into Chrome (or Chromium), it'll automatically pick up changes from the build directory, so for a newer build you only need to run the build command and reload your Chrome (or Chromium) new tab.
 
