@@ -5,6 +5,7 @@ Replace your Chrome new tab with productive, inspirational and motivational Impu
 **Impulse Tabs** uses React. Check out the following links to learn more:
 - [React](https://facebook.github.io/react/)
 - [Chrome extensions](https://developer.chrome.com/extensions/overview)
+- [Material UI](http://www.material-ui.com)
 
 ## Project setup
 The project setup requires `npm` or `yarn` (recommended)
