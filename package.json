@@ -11,7 +11,9 @@
     "material-ui": "^0.17.2",
     "react": "^15.4.2",
     "react-dom": "^15.4.2",
+    "react-redux": "^5.0.4",
     "react-tap-event-plugin": "^2.0.1",
+    "redux": "^3.6.0",
     "unsplash-source-es6": "^1.0.1"
   },
   "devDependencies": {
