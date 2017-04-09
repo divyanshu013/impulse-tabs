@@ -66,9 +66,9 @@ Once the extension is loaded into Chrome (or Chromium), it'll automatically pick
 
 ## Contribution guide
 
-In order to add new Components to the app, follow a similar structure as for the already added component.
+In order to add new components to the app, follow a similar structure as for the already added component.
 
-The new component should have its own directory inside `src/Components`. The new components should be include in the `src/App.js` file which will be rendered into the DOM via `src/index.js`.
+The new component should have its own directory inside `src/components`. The new components should be include in the `src/App.js` file which will be rendered into the DOM via `src/index.js`.
 
 All the global stylings should be added to `src/App.css` and any component specific stylings should be added to the component itself (the React way of styling). See [this](https://facebook.github.io/react/docs/dom-elements.html#style) link for additional info.
 

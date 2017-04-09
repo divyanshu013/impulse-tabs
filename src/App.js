@@ -3,8 +3,8 @@ import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 
 import './App.css';
 
-// Components
-import Main from './Components/Main';
+// components
+import Main from './components/Main';
 
 const App = () => (
   <MuiThemeProvider>
