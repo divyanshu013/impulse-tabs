@@ -5,6 +5,7 @@ import UnsplashSourceES6 from 'unsplash-source-es6';
 // Components
 import Clock from '../Clock';
 import SearchBox from '../SearchBox';
+import Todo from '../Todo';
 
 class Main extends React.Component {
   constructor() {
@@ -41,6 +42,7 @@ class Main extends React.Component {
       <div className="App" style={styles}>
         <Clock />
         <SearchBox />
+        <Todo />
       </div>
     );
   }

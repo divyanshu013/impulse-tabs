@@ -7,7 +7,7 @@ import injectTapEventPlugin from 'react-tap-event-plugin';
 import App from './App';
 import './index.css';
 
-injectTapEventPlugin();
+injectTapEventPlugin(); // adds onTouchTap to the context
 
 ReactDOM.render(
   <App />,
