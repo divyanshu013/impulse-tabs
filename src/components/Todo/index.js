@@ -7,7 +7,10 @@ import TodoFooter from './TodoFooter';
 
 const styles = {
   width: 300,
-  margin: 20
+  margin: 20,
+  left: 5,
+  bottom: 5,
+  position: 'absolute'
 };
 
 const Todo = () => (

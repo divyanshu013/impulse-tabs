@@ -26,7 +26,7 @@ class SearchBox extends React.Component {
 
   render() {
     return (
-      <div>
+      <div className="search">
         <form onSubmit={this.search}>
           <AutoComplete
             searchText={this.state.searchText}

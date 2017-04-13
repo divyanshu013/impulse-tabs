@@ -33,7 +33,10 @@ class Clock extends React.Component {
       backgroundColor: '#ffde00',
       display: 'inline-block',
       fontFamily: 'monospace',
-      textAlign: 'center'
+      textAlign: 'center',
+      top: 5,
+      right: 5,
+      position: 'absolute'
     };
 
     return (
