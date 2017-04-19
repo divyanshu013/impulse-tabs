@@ -6,6 +6,7 @@ import UnsplashSourceES6 from 'unsplash-source-es6';
 import Clock from '../Clock';
 import SearchBox from '../SearchBox';
 import Todo from '../Todo';
+import Weather from '../Weather';
 
 class Main extends React.Component {
   constructor() {
@@ -43,6 +44,7 @@ class Main extends React.Component {
         <Clock />
         <SearchBox />
         <Todo />
+        <Weather />
       </div>
     );
   }
