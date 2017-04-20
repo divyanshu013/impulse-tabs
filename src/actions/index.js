@@ -14,3 +14,24 @@ export const toggleTodo = (id) => (
     id
   }
 );
+
+export const setWeather = (icon) => (
+  {
+    type: 'SET_WEATHER',
+    icon
+  }
+);
+
+export const setTemp = (temp) => (
+  {
+    type: 'SET_TEMP',
+    temp
+  }
+);
+
+export const setTempFormat = (format) => (
+  {
+    type: 'SET_TEMP_FORMAT',
+    format
+  }
+);
