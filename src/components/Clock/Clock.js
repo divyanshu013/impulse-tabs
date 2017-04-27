@@ -22,6 +22,14 @@ class Clock extends React.Component {
     clearInterval(this.timerID);
   }
 
+  getFormatedMinutes() {
+    return (
+      this.state.date.getMinutes() < 10 ?
+        `0${this.state.date.getMinutes()}` :
+        this.state.date.getMinutes()
+    );
+  }
+
   tick() {
     this.setState({
       date: new Date()
@@ -31,7 +39,7 @@ class Clock extends React.Component {
   render() {
     return (
       <div className="clock">
-        <h1>{this.state.date.getHours()}:{this.state.date.getMinutes()}</h1>
+        <h1>{this.state.date.getHours()}:{this.getFormatedMinutes()}</h1>
       </div>
     );
   }
