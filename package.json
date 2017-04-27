@@ -22,12 +22,15 @@
     "unsplash-source-es6": "^1.0.1"
   },
   "devDependencies": {
-    "react-scripts": "0.9.5"
+    "react-scripts": "0.9.5",
+    "stylus": "^0.54.5"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build && cp manifest.json build/",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "styles": "stylus ./src/css/style.styl -o ./src/App.css",
+    "styles:watch": "stylus -w ./src/styles/style.styl -o ./src/App.css"
   }
 }

@@ -4,14 +4,14 @@ import ReactAnimatedWeather from 'react-animated-weather';
 import Temperature from './Temperature';
 
 const defaults = {
-  icon: 'FOG',
-  color: 'teal',
-  size: 128,
+  icon: 'CLEAR_DAY',
+  color: 'white',
+  size: 64,
   animate: true
 };
 
 const Weather = () => (
-  <div>
+  <div className="weather">
     <ReactAnimatedWeather
       icon={defaults.icon}
       color={defaults.color}
@@ -22,6 +22,7 @@ const Weather = () => (
       temp={38}
       format="C"
     />
+    <h2>Clear</h2>
   </div>
 );
 

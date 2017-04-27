@@ -29,19 +29,9 @@ class Clock extends React.Component {
   }
 
   render() {
-    const styles = {
-      backgroundColor: '#ffde00',
-      display: 'inline-block',
-      fontFamily: 'monospace',
-      textAlign: 'center',
-      top: 5,
-      right: 5,
-      position: 'absolute'
-    };
-
     return (
-      <div style={styles}>
-        <h1>{this.state.date.toTimeString()}</h1>
+      <div className="clock">
+        <h1>{this.state.date.getHours()}:{this.state.date.getMinutes()}</h1>
       </div>
     );
   }
