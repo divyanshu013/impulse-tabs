@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import { ListItem } from 'material-ui/List';
 import Checkbox from 'material-ui/Checkbox';
 
@@ -16,9 +17,9 @@ const TodoItem = ({ text, completed, onTodoClick }) => (
 );
 
 TodoItem.propTypes = {
-  text: React.PropTypes.string.isRequired,
-  completed: React.PropTypes.bool.isRequired,
-  onTodoClick: React.PropTypes.func.isRequired
+  text: PropTypes.string.isRequired,
+  completed: PropTypes.bool.isRequired,
+  onTodoClick: PropTypes.func.isRequired
 };
 
 export default TodoItem;

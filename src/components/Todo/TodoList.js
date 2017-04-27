@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import { List } from 'material-ui/List';
 
 import TodoItem from './TodoItem';
@@ -16,8 +17,8 @@ const TodoList = ({ todos, onTodoClick }) => (
 );
 
 TodoList.propTypes = {
-  todos: React.PropTypes.arrayOf(React.PropTypes.object).isRequired,
-  onTodoClick: React.PropTypes.func.isRequired
+  todos: PropTypes.arrayOf(PropTypes.object).isRequired,
+  onTodoClick: PropTypes.func.isRequired
 };
 
 export default TodoList;

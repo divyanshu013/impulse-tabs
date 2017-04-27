@@ -11,6 +11,7 @@
     "lodash": "^4.17.4",
     "material-ui": "^0.17.2",
     "node-uuid": "^1.4.8",
+    "prop-types": "^15.5.8",
     "react": "^15.4.2",
     "react-animated-weather": "^0.1.6",
     "react-dom": "^15.4.2",
