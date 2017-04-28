@@ -1,7 +1,7 @@
 .clock {
   color: #fff;
   display: inline-block;
-  font-family: Comfortaa;
+  font-family: Comfortaa, sans-serif;
   top: 5px;
   right: 20px;
   position: absolute;
@@ -15,9 +15,18 @@
   position: absolute;
   top: 25px;
   left: 20px;
-  font-family: Comfortaa;
+  font-family: Comfortaa, sans-serif;
   font-size: 10px;
   color: #fff;
+}
+.quote {
+  position: absolute;
+  color: #fff;
+  font-family: Lato, sans-serif;
+  top: 10px;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
 }
 @import url("https://fonts.googleapis.com/css?family=Comfortaa|Lato");
 body {

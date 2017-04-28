@@ -7,6 +7,7 @@ import Clock from '../Clock';
 import SearchBox from '../SearchBox';
 import Todo from '../Todo';
 import Weather from '../Weather';
+import Quote from '../Quote';
 
 class Main extends React.Component {
   constructor() {
@@ -37,14 +38,13 @@ class Main extends React.Component {
       backgroundSize: 'cover'
     };
 
-    // TODO: Remove unnecessary code when complete
-    // TODO: Add image author credits
     return (
       <div className="App" style={styles}>
         <Clock />
         <SearchBox />
         <Todo />
         <Weather />
+        <Quote />
       </div>
     );
   }

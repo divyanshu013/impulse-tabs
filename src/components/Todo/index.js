@@ -17,7 +17,6 @@ const Todo = () => (
   <Card style={styles}>
     <CardHeader
       title="Todo"
-      subtitle="View all todos"
     />
     <AddTodo />
     <VisibleTodoList />
